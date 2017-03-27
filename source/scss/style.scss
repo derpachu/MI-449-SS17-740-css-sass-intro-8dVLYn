@@ -1,0 +1,89 @@
+@import "../_variables";
+
+h1 {
+  color: $color1;
+  font-size: $font-base-size * 3;
+  font-family: $serif-fonts;
+}
+
+h2 {
+  color: $color2;
+  font-size: $font-base-size * 2;
+  font-family: $serif-fonts;
+}
+
+h3 {
+  color: $color3;
+  font-size: $font-base-size * 1.5;
+  font-family: $serif-fonts;
+}
+
+h4 {
+  color: $color4;
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+h5 {
+  color: $color1;
+  font-size: $font-base-size * 0.8;
+  font-family: $serif-fonts;
+}
+
+h6 {
+  color: $color2;
+  font-size: $font-base-size * 0.5;
+  font-family: $serif-fonts;
+}
+
+a {
+  color: $color3;
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+p {
+  font-size: $font-base-size * 0.75;
+  font-family: $serif-fonts;
+}
+
+input {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+input[type="text"] {
+  border-radius: $border-radius;
+}
+
+input[type="password"] {
+  border-radius: $border-radius;
+}
+
+label {
+  font-size: $font-base-size * 0.5;
+  font-family: $serif-fonts;
+}
+
+figcaption {
+  font-size: $font-base-size * 0.6;
+  font-family: $serif-fonts;
+}
+
+th {
+  font-size: $font-base-size * 0.9;
+  font-family: $serif-fonts;
+}
+
+td {
+  font-size: $font-base-size * 0.6;
+  font-family: $serif-fonts;
+}
+
+img {
+  border-radius: $border-radius;
+}
+
+textarea {
+  border-radius: $border-radius;
+}
