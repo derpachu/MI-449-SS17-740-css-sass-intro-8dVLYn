@@ -1,6 +1,6 @@
 @import "_variables";
 
-body {
+html {
   font-family: $serif-fonts;
 }
 
@@ -43,10 +43,16 @@ p {
   font-size: $font-base-size * 0.75;
 }
 
-input[type="text"],
-[type="password"] {
+input,
+textarea {
   font-size: $font-base-size;
   border-radius: $border-radius;
+
+  &[type="text"],
+  &[type="password"] {
+    font-size: $font-base-size;
+    border-radius: $border-radius;
+  }
 }
 
 label {
@@ -66,10 +72,5 @@ td {
 }
 
 img {
-  border-radius: $border-radius;
-}
-
-textarea {
-  font-size: $font-base-size;
   border-radius: $border-radius;
 }
