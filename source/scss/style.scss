@@ -47,9 +47,14 @@ input,
 textarea {
   font-size: $font-base-size;
   border-radius: $border-radius;
+  border-style: $border-style;
+  font-family: $serif-fonts;
 
   &[type="text"],
-  &[type="password"] {
+  &[type="password"],
+  &[type="checkbox"],
+  &[type="radio"] {
+    font-family: $serif-fonts;
     font-size: $font-base-size;
     border-radius: $border-radius;
   }
